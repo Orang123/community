@@ -1,0 +1,26 @@
+{
+  "groups": [
+    {
+      "name": "management.endpoint.database",
+      "type": "com.nowcoder.actuator.DatabaseEndpoint",
+      "sourceType": "com.nowcoder.actuator.DatabaseEndpoint"
+    }
+  ],
+  "properties": [
+    {
+      "name": "management.endpoint.database.cache.time-to-live",
+      "type": "java.time.Duration",
+      "description": "Maximum time that a response can be cached.",
+      "sourceType": "com.nowcoder.actuator.DatabaseEndpoint",
+      "defaultValue": "0ms"
+    },
+    {
+      "name": "management.endpoint.database.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable the database endpoint.",
+      "sourceType": "com.nowcoder.actuator.DatabaseEndpoint",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}
